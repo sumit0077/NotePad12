@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .editor {
+    flex: 1;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .textarea {
+    height: calc(100vh - 50px);
+    width: 100%;
+    height: 100vh;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+    padding-top: 40px;
+  }
+  
+  .navbar {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    background-color: rgb(234, 223, 223); 
+    padding: 10px;
+    gap: 62.9px;
+  }
+  
+  .navbar svg {
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .preview {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
+    height: 100vh;
+    overflow-y: auto;
+  } 
+
+
